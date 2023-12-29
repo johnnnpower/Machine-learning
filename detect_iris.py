@@ -12,6 +12,7 @@ print(iris.target_names)
 # Créer les variables X et y qui contiennent les caractéristiques et les cibles
 X = iris.data
 y = iris.target
+print(x)
 
 # Diviser les données en ensemble d'entraînement et de test
 from sklearn.model_selection import train_test_split
